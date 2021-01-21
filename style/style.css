@@ -1,0 +1,42 @@
+body {
+  background-color: #222831;
+  color: white;
+}
+
+i {
+  color: #f05454;
+  transform: rotate(175deg);
+}
+
+#navbar {
+    font-size: 1.4rem;
+    position: fixed;
+    width: 225px;
+    min-width: 210px;
+    left: 0;
+ 
+    height: 100%;
+    border-right: solid; 
+  }
+#navbar a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+#navbar a:hover {
+  color: blue;
+}
+#navbar li {
+    padding: 10px;
+  list-style: none;
+  cursor: pointer;
+}
+#navbar ul{
+    padding: 0;
+    left: 0;
+}
+
+.navbar-brand{
+    font-size: 1.8rem;
+    margin: 50px auto 30px 20px;
+}
